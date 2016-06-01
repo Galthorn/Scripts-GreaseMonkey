@@ -17,6 +17,7 @@ loadAndExecute("//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js", fun
         $('input[id^=hidden]').each(function() {
             var hiddenName = jQuery(this).attr("name");
             jQuery(this).after(" -> "+hiddenName);
+            //test update
         });
     });
 });

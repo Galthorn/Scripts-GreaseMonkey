@@ -5,6 +5,7 @@
 // @description    Show Hidden field labbel on AEM Authoring
 // @include        https://author.prod.heliosrenault.net/*
 // @include        https://author.uat.heliosrenault.net/*
+// @include        https://author.stg.heliosrenault.net/*
 // @author         JLM
 // ==/UserScript==
 

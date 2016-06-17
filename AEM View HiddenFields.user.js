@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           AEM View HiddenFields
-// @version        1.0
+// @version        1.1
 // @namespace      http://jlmarzio.fr/
 // @description    Show Hidden field labbel on AEM Authoring
 // @include        https://author.prod.heliosrenault.net/*

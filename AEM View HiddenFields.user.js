@@ -19,7 +19,7 @@ loadAndExecute("//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js", fun
             var hiddenName = jQuery(this).attr("name");
             var hiddenValue = jQuery(this).attr("value");
             jQuery(this).parent().append("<span class='heliosKeyHack' style='color: red;'> -> "+hiddenName+"</span>");
-            postManBody += '{"'+hiddenName+'":"'+hiddenValue+'"},\n';
+            postManBody += '"'+hiddenName+'":"'+hiddenValue+'",\n';
         });
         console.log(postManBody);
     });

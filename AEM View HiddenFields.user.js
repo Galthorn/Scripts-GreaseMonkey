@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           AEM View HiddenFields
-// @version        1.3
+// @version        1.3.1
 // @namespace      http://jlmarzio.fr/
 // @description    Show Hidden field labbel on AEM Authoring
 // @include        https://author.prod.heliosrenault.net/*
@@ -19,6 +19,7 @@ loadAndExecute("//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js", fun
             var hiddenName = jQuery(this).attr("name");
             var hiddenValue = jQuery(this).attr("value");
             jQuery(this).parent().append("<span class='heliosKeyHack' style='color: red;'> -> "+hiddenName+"</span>");
+            postManBody += '{"'+hiddenName+'":"'+hiddenValue+'"},\n';
         });
         console.log(postManBody);
     });

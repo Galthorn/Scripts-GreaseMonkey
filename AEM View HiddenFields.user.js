@@ -8,6 +8,8 @@
 // @include        https://author.stg.heliosrenault.net/*
 // @include        https://*.heliosrenault.net/*
 // @include        https://*.heliosdacia.net/*
+// @include        https://www.renault.*
+// @include        https://www.dacia.*
 // @author         JLM
 // ==/UserScript==
 
